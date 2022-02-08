@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+*{
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2sec linear;
+}
+
+*::selection{
+	/*background:var(--yellow);*/
+	background-color: yellow;
+	color: #333;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
