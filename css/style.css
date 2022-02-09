@@ -94,3 +94,77 @@ header .navbar ul li a{
 	font-size: 2rem;
 	border-radius: 5rem;
 }
+
+header .navbar ul li a:hover{
+	background-color: var(--lemon);
+	color: #1a1a1a;
+}
+
+#menu{
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.5rem;
+	padding: 1rem 1.5rem;
+	z-index: 1000;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media(max-width:1200px){
+	html{
+		font-size: 55%;
+	}
+
+
+}
+
+
+
+@media(max-width:991px){
+	header{
+		left: -120%;
+	}
+
+	#menu{
+		display: block;
+	}
+
+	header.toggle{
+		left: 0%;	
+	}
+
+}
+
+
+@media(max-width:768px){
+	html{
+		font-size: 50%;
+	}
+
+}
+
+
+@media(max-width:400px){
+	header{
+		width: 100vw;
+	}
+
+}
