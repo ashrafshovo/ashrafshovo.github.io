@@ -40,6 +40,32 @@ html::-webkit-scrollbar-thumb{
 body{
 	background: #111;
 	overflow-x: hidden;
+	padding-left: 40rem;
+}
+
+section{
+	min-height: 100vh;
+	padding: 1rem;
+}
+
+.btn{
+	padding: .7rem 3rem;
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 2rem;
+	border-radius: 5rem;
+}
+
+.btn i{
+	padding: 0 .5rem;
+	font-size: 1.8rem;
+}
+
+.btn:hover{
+	background-color: var(--lemon);
+	color: #1a1a1a;
 }
 
 header{
@@ -48,7 +74,7 @@ header{
 	left: 0;
 	z-index: 1000;
 	height: 100%;
-	width: 35rm;
+	width: 40rem;
 	background: #1a1a1a;
 	display: flex;
 	align-items: center;
@@ -113,11 +139,32 @@ header .navbar ul li a:hover{
 	display: none;
 }
 
+.home{
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	padding: 0 15rem;
+}
 
+.home h3{
+	font-size: 2.5rem;
+	color: #fff;
+}
 
+.home h1{
+	font-size: 5rem;
+	color: #fff;
+}
 
+.home h1 span{
+	color: var(--lemon);
+}
 
-
+.home p{
+	font-size: 2rem;
+	color: #eee;
+	padding: 1rem 0;
+}
 
 
 
@@ -133,6 +180,9 @@ header .navbar ul li a:hover{
 		font-size: 55%;
 	}
 
+	.home{
+		padding: 1rem 4rem;
+	}
 
 }
 
@@ -149,6 +199,10 @@ header .navbar ul li a:hover{
 
 	header.toggle{
 		left: 0%;	
+	}
+
+	body{
+		padding: 0;
 	}
 
 }
