@@ -14,3 +14,11 @@ $(document).ready(function(){
 });
 
 /*Toggle menu ends*/
+
+/*Loader starts*/
+
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
+
+/*Loader ends*/
