@@ -12,7 +12,7 @@
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 5000;
+	z-index: 5000; /*Loader works for this line */
 }
 
 .loader {
@@ -334,6 +334,32 @@ header .navbar ul li a:hover{
 	background: var(--lemon);
 }
 
+.portfolio .box-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 2rem 0;
+}
+
+.portfolio .box-container .box{
+	height: 20rem;
+	width: 26rem;
+	border-radius: 1rem;
+	margin: 2rem;
+	overflow: hidden;
+	cursor: pointer;
+}
+.portfolio .box-container .box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.portfolio .box-container .box:hover img{
+	transform: scale(1,2);
+}
+
+
 
 
 
@@ -396,6 +422,10 @@ header .navbar ul li a:hover{
 	}.
 
 	.education .box-container .box{
+		width: 100%;
+	}
+
+	.portfolio .box-container .box{
 		width: 100%;
 	}
 
